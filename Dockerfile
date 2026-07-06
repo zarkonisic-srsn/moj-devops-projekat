@@ -4,7 +4,7 @@ WORKDIR /app
 
 RUN pip install flask
 
-COPY app.py .
+COPY . .
 
 EXPOSE 5000
 
